@@ -13,7 +13,7 @@ for contador in range(1, 6):
         break
 
     if classificacao < 1 or classificacao > 5:
-        print("Classificação inválida")
+        print("Classificação inválida") 
     else:
         classificacoes.append(classificacao)
         print(f"Você classificou o filme {contador} com a nota {classificacao}")
@@ -23,3 +23,5 @@ print("Lista de filmes classificados:")
 
 for i in range(1, len(classificacoes) + 1):
     print(f"Filme {i}: Classificação {classificacoes[i - 1]}")
+
+   
